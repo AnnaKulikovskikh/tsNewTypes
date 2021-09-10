@@ -1,6 +1,6 @@
 import Buyable from './Buyable';
 
-export default class MusicAlbum implements Buyable {
+export default class Movies implements Buyable {
     constructor(
         readonly id: number,
         readonly name: string,

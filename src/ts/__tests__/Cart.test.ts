@@ -7,7 +7,7 @@ test('new card should be empty', () => {
   expect(cart.items.length).toBe(0);
 });
 
-test('add cinema', () => {
+test('add movie', () => {
   const cart = new Cart();
   cart.add(new Movie(1009, 'Avengers', 2012, true, 'USA', 'Avengers Assemble!', 'fantastic', 137, 300));
   expect(cart.items.length).toBe(1);
